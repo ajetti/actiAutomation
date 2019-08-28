@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <test name="Test">
+    <classes>
+      <class name="com.acti.qa.testcases.TC00_ACTI_BaseTest"/>
+      <class name="com.acti.qa.testcases.TC01_ACTI_LoginPageTest"/>
+      <class name="com.acti.qa.testcases.TC02_ACTI_EnterTimePage"/>
+      <class name="com.acti.qa.testcases.TC03_ACTI_CreateTaskPage"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.acti.qa.testcases.TC02_ACTI_EnterTimePage">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="preTest"/>
+        </methods>
+      </class> <!-- com.acti.qa.testcases.TC02_ACTI_EnterTimePage -->
+      <class name="com.acti.qa.testcases.TC01_ACTI_LoginPageTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="testVerifyActivelogo"/>
+          <include name="preTest"/>
+          <include name="testVerifyCredentials"/>
+        </methods>
+      </class> <!-- com.acti.qa.testcases.TC01_ACTI_LoginPageTest -->
+      <class name="com.acti.qa.testcases.TC03_ACTI_CreateTaskPage">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="preTest"/>
+          <include name="TestCreateUser"/>
+        </methods>
+      </class> <!-- com.acti.qa.testcases.TC03_ACTI_CreateTaskPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.acti.qa.testcases.TC02_ACTI_EnterTimePage">
+        <methods>
+          <include name="testNameDisplayed"/>
+          <include name="testValidateTabsDisplayed"/>
+          <include name="testLogout"/>
+          <include name="preTest"/>
+        </methods>
+      </class> <!-- com.acti.qa.testcases.TC02_ACTI_EnterTimePage -->
+      <class name="com.acti.qa.testcases.TC03_ACTI_CreateTaskPage">
+        <methods>
+          <include name="TestCreateUser"/>
+        </methods>
+      </class> <!-- com.acti.qa.testcases.TC03_ACTI_CreateTaskPage -->
+      <class name="com.acti.qa.testcases.TC01_ACTI_LoginPageTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="testVerifyActivelogo"/>
+          <include name="preTest"/>
+          <include name="preTest"/>
+          <include name="testVerifyCredentials"/>
+        </methods>
+      </class> <!-- com.acti.qa.testcases.TC01_ACTI_LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test(failed)(failed)">
+    <classes>
+      <class name="com.acti.qa.testcases.TC02_ACTI_EnterTimePage">
+        <methods>
+          <include name="preTest"/>
+        </methods>
+      </class> <!-- com.acti.qa.testcases.TC02_ACTI_EnterTimePage -->
+      <class name="com.acti.qa.testcases.TC03_ACTI_CreateTaskPage">
+        <methods>
+          <include name="TestCreateUser"/>
+        </methods>
+      </class> <!-- com.acti.qa.testcases.TC03_ACTI_CreateTaskPage -->
+      <class name="com.acti.qa.testcases.TC01_ACTI_LoginPageTest">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="testVerifyActivelogo"/>
+          <include name="preTest"/>
+          <include name="preTest"/>
+          <include name="testVerifyCredentials"/>
+        </methods>
+      </class> <!-- com.acti.qa.testcases.TC01_ACTI_LoginPageTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
